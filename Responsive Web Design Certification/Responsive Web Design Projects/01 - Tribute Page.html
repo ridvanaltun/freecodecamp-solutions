@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FCC: Tribute Page</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+
+  <style type="text/css">
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    #title {
+      margin: 12px;
+    }
+    #caption {
+      margin: 5px;
+      margin-bottom: 16px;
+      font-style: italic;
+    }
+    #main {
+      display: flex;
+      flex-direction: column;
+      font-family: 'Questrial', sans-serif;
+      align-items: center;
+      color: #333;
+      background-color: rgb(238, 238, 238);
+      margin: 2 0rem;
+    }
+    #image {
+      display: block;
+      position: relative;
+      height: auto;
+      width: 100%;
+      min-width: 400px;
+      max-width: 600px;
+    }
+    #img-div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: white;
+      width: 100%;
+    }
+    #tribute-info {
+      margin: 0rem 15rem;
+      line-height: 1.4rem;
+    }
+    #about {
+      margin: 2rem 0;
+    }
+    a:hover {
+      background-color: black;
+      color: white;
+    }
+    ul {
+      padding: 10px;
+      padding-top: 5px;
+      margin: 0 auto 50px auto;
+      max-width: 500px;
+    }
+    li {
+      line-height: 1.5rem;
+      text-align: left;
+    }
+    footer {
+      margin-top: 1.5rem;
+      background-color: white;
+      width: 100%;
+      padding-bottom: 1.5rem;
+      padding-top: 0.5rem;
+      text-align: center;
+    }
+
+    /* Mobil View */
+    @media (max-width: 768px) {
+      #tribute-info {
+        margin: 0rem 2rem;
+      }
+    }
+  </style>
+</head>
+<body id="main">
+  <h1 id="title">John Doe</h1>
+  <p id="caption">Cras id.</p>
+  <div id="img-div">
+    <figure>
+      <img src="https://picsum.photos/536/354" id="image" alt="" />
+      <figcaption id="img-caption">Mauris non.</label>
+    </figure>
+  </div>
+  <section id="about">
+    <h3 style="text-align: center; margin-top: 0;">Duis eleifend</h3>
+    <p id="tribute-info">Pellentesque rutrum aliquam felis, et aliquam odio eleifend sed. Aliquam pretium semper tortor at blandit. Vivamus arcu sapien, ornare pretium varius vitae, consequat et lorem. Sed convallis maximus laoreet. Aenean dictum varius eros non suscipit. Nullam libero tortor, hendrerit ut dolor sed, dignissim pellentesque magna. Donec tempor eros vel commodo ullamcorper. Pellentesque ac tristique nibh. Ut id euismod nisi, a vehicula neque. Donec bibendum sapien a eros fringilla sollicitudin. Nunc a orci a nunc ultricies pulvinar nec vitae est. Nam lacus lacus, tempor sed risus ac, <a id="tribute-link" href="https://tr.lipsum.com/" target="_blank">tempor gravida mauris</a>. Maecenas bibendum eleifend libero vel ornare. Nullam elit turpis, rutrum et augue ut, convallis blandit lectus. Nam vitae fringilla lectus. Aliquam sed convallis est, sed efficitur tortor.</p>
+  </section>
+</body>
+<footer>
+  <p>Maecenas tincidunt.</p>
+</footer>
+</html>
