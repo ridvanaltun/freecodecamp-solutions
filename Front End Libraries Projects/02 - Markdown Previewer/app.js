@@ -98,6 +98,7 @@ And here. | Okay. | I think we get it.
               padding: 20,
               flex: 1,
               borderRadius: "0px 0px 10px 10px",
+              outline: "none",
             }}
             value={this.state.raw}
             onChange={this.onTextChange.bind(this)}
