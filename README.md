@@ -14,6 +14,7 @@ Projects what i made during the course.
 
 - [Random Quote Machine](https://codepen.io/ridvanaltun/full/YzwXMQM)
 - [Markdown Preview](https://codepen.io/ridvanaltun/full/qBbdGgZ)
+- [Drum Machine](https://codepen.io/ridvanaltun/full/mdVeJRr)
 
 ## My Certificates
 

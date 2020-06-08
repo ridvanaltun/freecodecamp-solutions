@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#drum {
+  flex: 0.5;
+}
+
+#display {
+  display: flex;
+  flex: 0.5;
+  justify-content: center;
+  align-items: center;
+}
+
+.drum-pad {
+  margin: 10px;
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  color: white;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+#title {
+  width: 60%;
+  height: 20%;
+  background-color: cornsilk;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
