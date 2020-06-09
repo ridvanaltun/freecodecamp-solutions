@@ -15,8 +15,8 @@ Projects what i made during the course.
 - [Random Quote Machine](https://codepen.io/ridvanaltun/full/YzwXMQM)
 - [Markdown Preview](https://codepen.io/ridvanaltun/full/qBbdGgZ)
 - [Drum Machine](https://codepen.io/ridvanaltun/full/mdVeJRr)
+- [JavaScript Calculator](https://codepen.io/ridvanaltun/full/MWKaeOY)
 
 ## My Certificates
 
 [Responsive Web Design](https://www.freecodecamp.org/certification/ridvanaltun/responsive-web-design)
-

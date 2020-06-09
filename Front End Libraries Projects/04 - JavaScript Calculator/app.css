@@ -1,0 +1,92 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  color: white;
+}
+
+#calculator {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  width: 320px;
+  background-color: black;
+}
+
+/**
+  Buttons
+*/
+
+button {
+  position: relative;
+  width: 80px;
+  height: 65px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+  border: none;
+  font-family: Share Tech Mono, monospace;
+  outline: 1px solid black;
+}
+
+.large-btn {
+  width: 160px;
+}
+
+#equals {
+  height: 130px;
+  background-color: rgb(0, 68, 102);
+  position: absolute;
+  z-index: 2;
+}
+
+.act-btn {
+  background-color: rgb(102, 102, 102);
+}
+
+.num-btn {
+  background-color: #4d4d4d;
+}
+
+#clear {
+  background-color: rgb(172, 57, 57);
+}
+
+button:hover {
+  color: black;
+  outline: 1px solid white;
+  z-index: 3;
+}
+
+/**
+  Screen
+**/
+
+#screen {
+  height: 65px;
+  padding: 5px;
+}
+
+#display {
+  font-family: digital;
+  font-size: 30px;
+  padding-right: 5px;
+  text-align: end;
+  height: 35px;
+}
+
+#formula {
+  font-family: digital;
+  font-size: 20px;
+  color: orange;
+  padding-right: 5px;
+  height: 30px;
+  text-align: end;
+}
