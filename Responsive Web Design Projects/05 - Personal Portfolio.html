@@ -1,215 +1,250 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>FCC: Personal Portfolio</title>
+  <head>
+    <title>FCC: Personal Portfolio</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker|Shadows+Into+Light|Yrsa&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Permanent+Marker|Shadows+Into+Light|Yrsa&display=swap"
+      rel="stylesheet"
+    />
 
-  <style type="text/css">
-    :root {
-      --main-red: #be3144;
-    }
-    #navbar a {
-      text-decoration: none;
-      font-size: 2rem;
-      color: white;
-    }
-    #navbar a:hover {
-      background-color: gray;
-    }
-    html, body {
-      margin: 0;
-      background-color: var(--main-body);
-      font-family: 'Yrsa', serif;
-    }
-    #navbar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      padding-left: 1rem;
-      color: white;
-      background-color: var(--main-red);
-    }
-    #navbar-links {
-      text-align: left;
-    }
-    .nav-link {
-      padding: 3rem;
-      padding-bottom: 1.2rem;
-    }
-    #welcome-title {
-      font-family: 'Shadows Into Light', cursive;
-      font-size: 4rem;
-      margin: 0;
-    }
-    #welcome-caption {
-      margin: 0;
-      font-family: 'Shadows Into Light', cursive;
-      color: var(--main-red);
-      font-size: 2rem;
-      font-style: italic;
-    }
-    #welcome-section {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 100vh;
-      background-color: black;
-      color: white;
-    }
-    #projects {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      margin: 3rem;
-    }
-    .project-tile {
-      display: flex;
-      flex-direction: column;
-      max-height: 300px;
-      width: 200px;
-      border: 1px solid black;
-      margin: 1rem;
-      text-align: center;
-    }
-    .project-title {
-      padding: 0.5rem 0;
-      text-align: center;
-      width: 100%;
-      color: white;
-      background-color: gray;
-      margin: 0;
-    }
-    .project-content {
-      padding: 1rem;
-      font-size: 1.5rem;
-      line-height: 1.5rem;
-    }
-    .project-link {
-      text-align: center;
-      background-color: black;
-      padding: 1rem;
-      text-decoration: none;
-      color: white;
-    }
-    #contact {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      margin: 3rem;
-      border: 1px dotted black;
-      padding: 2rem;
-    }
-    .contact-element {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      width: 250px;
-      border: 1px dotted black;
-      padding: 1rem;
-      margin: 1rem;
-    }
-    .contact-link {
-      text-decoration: none;
-      padding-top: 1rem;
-      color: white;
-      font-weight: bold;
-    }
-    .contact-title {
-      color: darkslategrey;
-      font-size: 2rem;
-    }
-    footer {
-      color: white;
-      width: 100%;
-      padding: 1rem;
-      background-color: gray;
-      text-align: center;
-    }
-    /* Phone View */
-    @media (max-width: 768px) {
-      #navbar {
-        justify-content: center;
+    <style type="text/css">
+      :root {
+        --main-red: #be3144;
       }
       #navbar a {
-        font-size: 1.3rem;
+        text-decoration: none;
+        font-size: 2rem;
+        color: white;
+      }
+      #navbar a:hover {
+        background-color: gray;
+      }
+      html,
+      body {
+        margin: 0;
+        background-color: var(--main-body);
+        font-family: "Yrsa", serif;
+      }
+      #navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-left: 1rem;
+        color: white;
+        background-color: var(--main-red);
+      }
+      #navbar-links {
+        text-align: left;
       }
       .nav-link {
-        padding-bottom: 0.2rem;
+        padding: 3rem;
+        padding-bottom: 1.2rem;
       }
-      #nav-title {
-        display: none;
+      #welcome-title {
+        font-family: "Shadows Into Light", cursive;
+        font-size: 4rem;
+        margin: 0;
       }
-    }
-  </style>
-  <nav id="navbar">
-    <h1 id="nav-title">John Doe</h1>
-    <div id="nav-links">
-      <a class="nav-link" href="#welcome-section">About</a>
-      <a class="nav-link" href="#projects">Projects</a>
-      <a class="nav-link" href="#contact">Contact</a>
-    </div>
-  </nav>
-</head>
-<body>
-  <section id="welcome-section">
-    <h1 id="welcome-title">Welcome</h1>
-    <p id="welcome-caption">Maecenas in arcu eget amet.</p>
-  </section>
-  <section id="projects">
-    <div class="project-tile">
-      <h2 class="project-title">Project 1</h2>
-      <p class="project-content">In finibus eros quis congue scelerisque.</p>
-      <a class="project-link" href="https://freecodecamp.org" target="_blank">Details</a>
-    </div>
-    <div class="project-tile">
-      <h2 class="project-title">Project 2</h2>
-      <p class="project-content">In finibus eros quis congue scelerisque.</p>
-      <a class="project-link" href="https://freecodecamp.org" target="_blank">Details</a>
-    </div>
-    <div class="project-tile">
-      <h2 class="project-title">Project 3</h2>
-      <p class="project-content">In finibus eros quis congue scelerisque.</p>
-      <a class="project-link" href="https://freecodecamp.org" target="_blank">Details</a>
-    </div>
-    <div class="project-tile">
-      <h2 class="project-title">Project 4</h2>
-      <p class="project-content">In finibus eros quis congue scelerisque.</p>
-      <a class="project-link" href="https://freecodecamp.org" target="_blank">Details</a>
-    </div>
-    <div class="project-tile">
-      <h2 class="project-title">Project 5</h2>
-      <p class="project-content">In finibus eros quis congue scelerisque.</p>
-      <a class="project-link" href="https://freecodecamp.org" target="_blank">Details</a>
-    </div>
-  </section>
-  <section id="contact">
-    <div class="contact-element">
-      <a href="https://github.com/ridvanaltun" target="_blank" id="profile-link" class="contact-link">
-        <img height="200px" width="250px" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="Github Mascot">
-        <header class="contact-title">Github Profile</header>
-      </a>
-    </div>
-    <div class="contact-element">
-      <a href="https://www.freecodecamp.org/fcc13375bf9-541c-404c-80e9-8ce2e6ee8a92" target="_blank" class="contact-link">
-        <img height="200px" width="200px" src="https://yt3.ggpht.com/a/AGF-l7_sGUrG_alh-mdTIDmdcaw1GanuPL2PxVajjQ=s900-mo-c-c0xffffffff-rj-k-no" alt="FreeCodeCamp Logo">
-        <header class="contact-title">FCC Profile</header>
-      </a>
-    </div>
-  </section>
-</body>
-<footer>
-  Nulla varius.
-</footer>
+      #welcome-caption {
+        margin: 0;
+        font-family: "Shadows Into Light", cursive;
+        color: var(--main-red);
+        font-size: 2rem;
+        font-style: italic;
+      }
+      #welcome-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        color: white;
+      }
+      #projects {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem;
+      }
+      .project-tile {
+        display: flex;
+        flex-direction: column;
+        max-height: 300px;
+        width: 200px;
+        border: 1px solid black;
+        margin: 1rem;
+        text-align: center;
+      }
+      .project-title {
+        padding: 0.5rem 0;
+        text-align: center;
+        width: 100%;
+        color: white;
+        background-color: gray;
+        margin: 0;
+      }
+      .project-content {
+        padding: 1rem;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+      }
+      .project-link {
+        text-align: center;
+        background-color: black;
+        padding: 1rem;
+        text-decoration: none;
+        color: white;
+      }
+      #contact {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem;
+        border: 1px dotted black;
+        padding: 2rem;
+      }
+      .contact-element {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 250px;
+        border: 1px dotted black;
+        padding: 1rem;
+        margin: 1rem;
+      }
+      .contact-link {
+        text-decoration: none;
+        padding-top: 1rem;
+        color: white;
+        font-weight: bold;
+      }
+      .contact-title {
+        color: darkslategrey;
+        font-size: 2rem;
+      }
+      footer {
+        color: white;
+        width: 100%;
+        padding: 1rem;
+        background-color: gray;
+        text-align: center;
+      }
+      /* Phone View */
+      @media (max-width: 768px) {
+        #navbar {
+          justify-content: center;
+        }
+        #navbar a {
+          font-size: 1.3rem;
+        }
+        .nav-link {
+          padding-bottom: 0.2rem;
+        }
+        #nav-title {
+          display: none;
+        }
+      }
+    </style>
+    <nav id="navbar">
+      <h1 id="nav-title">John Doe</h1>
+      <div id="nav-links">
+        <a class="nav-link" href="#welcome-section">About</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </head>
+  <body>
+    <!--  freeCodeCamp Test Suite -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <section id="welcome-section">
+      <h1 id="welcome-title">Welcome</h1>
+      <p id="welcome-caption">Maecenas in arcu eget amet.</p>
+    </section>
+    <section id="projects">
+      <div class="project-tile">
+        <h2 class="project-title">Project 1</h2>
+        <p class="project-content">In finibus eros quis congue scelerisque.</p>
+        <a class="project-link" href="https://freecodecamp.org" target="_blank"
+          >Details</a
+        >
+      </div>
+      <div class="project-tile">
+        <h2 class="project-title">Project 2</h2>
+        <p class="project-content">In finibus eros quis congue scelerisque.</p>
+        <a class="project-link" href="https://freecodecamp.org" target="_blank"
+          >Details</a
+        >
+      </div>
+      <div class="project-tile">
+        <h2 class="project-title">Project 3</h2>
+        <p class="project-content">In finibus eros quis congue scelerisque.</p>
+        <a class="project-link" href="https://freecodecamp.org" target="_blank"
+          >Details</a
+        >
+      </div>
+      <div class="project-tile">
+        <h2 class="project-title">Project 4</h2>
+        <p class="project-content">In finibus eros quis congue scelerisque.</p>
+        <a class="project-link" href="https://freecodecamp.org" target="_blank"
+          >Details</a
+        >
+      </div>
+      <div class="project-tile">
+        <h2 class="project-title">Project 5</h2>
+        <p class="project-content">In finibus eros quis congue scelerisque.</p>
+        <a class="project-link" href="https://freecodecamp.org" target="_blank"
+          >Details</a
+        >
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-element">
+        <a
+          href="https://github.com/ridvanaltun"
+          target="_blank"
+          id="profile-link"
+          class="contact-link"
+        >
+          <img
+            height="200px"
+            width="250px"
+            src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"
+            alt="Github Mascot"
+          />
+          <header class="contact-title">Github Profile</header>
+        </a>
+      </div>
+      <div class="contact-element">
+        <a
+          href="https://www.freecodecamp.org/fcc13375bf9-541c-404c-80e9-8ce2e6ee8a92"
+          target="_blank"
+          class="contact-link"
+        >
+          <img
+            height="200px"
+            width="200px"
+            src="https://yt3.ggpht.com/a/AGF-l7_sGUrG_alh-mdTIDmdcaw1GanuPL2PxVajjQ=s900-mo-c-c0xffffffff-rj-k-no"
+            alt="FreeCodeCamp Logo"
+          />
+          <header class="contact-title">FCC Profile</header>
+        </a>
+      </div>
+    </section>
+  </body>
+  <footer>
+    Nulla varius.
+  </footer>
 </html>

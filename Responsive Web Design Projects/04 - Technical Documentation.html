@@ -1,102 +1,223 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>FCC: Technical Documentation</title>
+  <head>
+    <title>FCC: Technical Documentation</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Exo+2|Source+Code+Pro&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Exo+2|Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
 
-  <style type="text/css">
-    code {
-      font-family: 'Source Code Pro', monospace;
-    }
-    body {
-      margin: 0;
-    }
-    #title {
-      font-weight: bold;
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-    }
-    #main-doc {
-      display: flex;
-      flex-direction: row;
-      font-family: 'Exo 2', sans-serif;
-      margin: 0 5rem 5rem 0;
-      height: 100vh;
-    }
-    #main {
-      margin-left: 16.5rem;
-    }
-    #main header {
-      font-weight: bold;
-      font-size: 1.5rem;
-      margin-top: 1rem;
-    }
-    #main p {
-      margin-left: 0.7rem;
-    }
-    #main code {
-      margin-left: 0.7rem;
-    }
-    #navbar {
-      display: flex;
-      flex-direction: column;
-      position: fixed;
-      height: 100vh;
-      padding: 3rem;
-      padding-left: 1.5rem;
-      line-height: 1.5rem;
-      background-color: gray;
-      color: white;
-      font-family: 'Exo 2', sans-serif;
-    }
-    .main-section {
-      margin-bottom: 1.7rem;
-    }
-    .main-title {
-      margin-bottom: 0.1rem;
-    }
-    .nav-link {
-      text-decoration: none;
-      color: white;
-    }
-    .nav-link:hover {
-      background-color: black;
-    }
-    @media (max-width: 768px) {
-      #navbar {
-        display: none;
+    <style type="text/css">
+      code {
+        font-family: "Source Code Pro", monospace;
+      }
+      body {
+        margin: 0;
+      }
+      #title {
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      #main-doc {
+        display: flex;
+        flex-direction: row;
+        font-family: "Exo 2", sans-serif;
+        margin: 0 5rem 5rem 0;
+        height: 100vh;
       }
       #main {
-        margin-left: 2rem;
+        margin-left: 16.5rem;
       }
-    }
-  </style>
-  <nav id="navbar">
-    <header id="title">Technical Doc</header>
-    <a class="nav-link" href="#react">React</a>
-    <a class="nav-link" href="#redux">Redux</a>
-    <a class="nav-link" href="#javascript">Javascript</a>
-    <a class="nav-link" href="#jsx">Jsx</a>
-    <a class="nav-link" href="#es6">Es6</a>
-  </nav>
-</head>
-<main id="main-doc">
-  <div id="main">
-    <section id="react" class="main-section"><header class="main-title">React</header><p>Praesent nulla justo, aliquam posuere est vel, porttitor efficitur elit. Aliquam erat volutpat. Pellentesque fringilla sollicitudin pretium. Aenean metus est, tincidunt eu scelerisque at, volutpat ac odio. Fusce varius nibh at aliquam iaculis. Aenean convallis ligula est, eget venenatis ipsum mollis sit amet. Aenean porta libero mauris, at ornare arcu laoreet sit amet. Duis varius, dui sed congue dignissim, est turpis suscipit ligula, dapibus luctus felis mi et libero. Nulla metus nibh, scelerisque nec rutrum sit amet, congue at urna. Fusce euismod quis magna id pretium. Duis tristique sem orci, at semper neque dapibus id. Duis non erat elementum, laoreet purus in, hendrerit quam.</p><code>Lorem ipsum dolor sit amet.</code><p>Aenean pulvinar nunc at metus placerat hendrerit. Nam ut quam at turpis vehicula imperdiet. Maecenas mollis dolor in ante convallis, in luctus mauris hendrerit. Maecenas varius nunc vitae purus ultricies, sit amet congue mi eleifend. Integer cursus magna in mollis suscipit.</p></section>
-    <section id="redux" class="main-section"><header class="main-title">Redux</header><p>Praesent nulla justo, aliquam posuere est vel, porttitor efficitur elit. Aliquam erat volutpat. Pellentesque fringilla sollicitudin pretium. Aenean metus est, tincidunt eu scelerisque at, volutpat ac odio. Fusce varius nibh at aliquam iaculis. Aenean convallis ligula est, eget venenatis ipsum mollis sit amet. Aenean porta libero mauris, at ornare arcu laoreet sit amet. Duis varius, dui sed congue dignissim, est turpis suscipit ligula, dapibus luctus felis mi et libero. Nulla metus nibh, scelerisque nec rutrum sit amet, congue at urna. Fusce euismod quis magna id pretium. Duis tristique sem orci, at semper neque dapibus id. Duis non erat elementum, laoreet purus in, hendrerit quam.</p><code>Lorem ipsum dolor sit amet.</code><p>Aenean pulvinar nunc at metus placerat hendrerit. Nam ut quam at turpis vehicula imperdiet. Maecenas mollis dolor in ante convallis, in luctus mauris hendrerit. Maecenas varius nunc vitae purus ultricies, sit amet congue mi eleifend. Integer cursus magna in mollis suscipit.</p></section>
-    <section id="javascript" class="main-section"><header class="main-title">Javascript</header><p>Praesent nulla justo, aliquam posuere est vel, porttitor efficitur elit. Aliquam erat volutpat. Pellentesque fringilla sollicitudin pretium. Aenean metus est, tincidunt eu scelerisque at, volutpat ac odio. Fusce varius nibh at aliquam iaculis. Aenean convallis ligula est, eget venenatis ipsum mollis sit amet. Aenean porta libero mauris, at ornare arcu laoreet sit amet. Duis varius, dui sed congue dignissim, est turpis suscipit ligula, dapibus luctus felis mi et libero. Nulla metus nibh, scelerisque nec rutrum sit amet, congue at urna. Fusce euismod quis magna id pretium. Duis tristique sem orci, at semper neque dapibus id. Duis non erat elementum, laoreet purus in, hendrerit quam.</p><code>Lorem ipsum dolor sit amet.</code><p>Aenean pulvinar nunc at metus placerat hendrerit. Nam ut quam at turpis vehicula imperdiet. Maecenas mollis dolor in ante convallis, in luctus mauris hendrerit. Maecenas varius nunc vitae purus ultricies, sit amet congue mi eleifend. Integer cursus magna in mollis suscipit.</p></section>
-    <section id="jsx" class="main-section"><header class="main-title">Jsx</header><p>Praesent nulla justo, aliquam posuere est vel, porttitor efficitur elit. Aliquam erat volutpat. Pellentesque fringilla sollicitudin pretium. Aenean metus est, tincidunt eu scelerisque at, volutpat ac odio. Fusce varius nibh at aliquam iaculis. Aenean convallis ligula est, eget venenatis ipsum mollis sit amet. Aenean porta libero mauris, at ornare arcu laoreet sit amet. Duis varius, dui sed congue dignissim, est turpis suscipit ligula, dapibus luctus felis mi et libero. Nulla metus nibh, scelerisque nec rutrum sit amet, congue at urna. Fusce euismod quis magna id pretium. Duis tristique sem orci, at semper neque dapibus id. Duis non erat elementum, laoreet purus in, hendrerit quam.</p><code>Lorem ipsum dolor sit amet.</code><p>Aenean pulvinar nunc at metus placerat hendrerit. Nam ut quam at turpis vehicula imperdiet. Maecenas mollis dolor in ante convallis, in luctus mauris hendrerit. Maecenas varius nunc vitae purus ultricies, sit amet congue mi eleifend. Integer cursus magna in mollis suscipit.</p>
-      <ol>
-        <li>Lorem ipsum.</li>
-        <li>Lorem ipsum.</li>
-        <li>Lorem ipsum.</li>
-        <li>Lorem ipsum.</li>
-        <li>Lorem ipsum.</li>
-      </ol>
-    </section>
-    <section id="es6" class="main-section"><header class="main-title">Es6</header><p>Praesent nulla justo, aliquam posuere est vel, porttitor efficitur elit. Aliquam erat volutpat. Pellentesque fringilla sollicitudin pretium. Aenean metus est, tincidunt eu scelerisque at, volutpat ac odio. Fusce varius nibh at aliquam iaculis. Aenean convallis ligula est, eget venenatis ipsum mollis sit amet. Aenean porta libero mauris, at ornare arcu laoreet sit amet. Duis varius, dui sed congue dignissim, est turpis suscipit ligula, dapibus luctus felis mi et libero. Nulla metus nibh, scelerisque nec rutrum sit amet, congue at urna. Fusce euismod quis magna id pretium. Duis tristique sem orci, at semper neque dapibus id. Duis non erat elementum, laoreet purus in, hendrerit quam.</p><code>Lorem ipsum dolor sit amet.</code><p>Aenean pulvinar nunc at metus placerat hendrerit. Nam ut quam at turpis vehicula imperdiet. Maecenas mollis dolor in ante convallis, in luctus mauris hendrerit. Maecenas varius nunc vitae purus ultricies, sit amet congue mi eleifend. Integer cursus magna in mollis suscipit.</p></section>
-  </div>
-</main>
+      #main header {
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+      }
+      #main p {
+        margin-left: 0.7rem;
+      }
+      #main code {
+        margin-left: 0.7rem;
+      }
+      #navbar {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        height: 100vh;
+        padding: 3rem;
+        padding-left: 1.5rem;
+        line-height: 1.5rem;
+        background-color: gray;
+        color: white;
+        font-family: "Exo 2", sans-serif;
+      }
+      .main-section {
+        margin-bottom: 1.7rem;
+      }
+      .main-title {
+        margin-bottom: 0.1rem;
+      }
+      .nav-link {
+        text-decoration: none;
+        color: white;
+      }
+      .nav-link:hover {
+        background-color: black;
+      }
+      @media (max-width: 768px) {
+        #navbar {
+          display: none;
+        }
+        #main {
+          margin-left: 2rem;
+        }
+      }
+    </style>
+    <nav id="navbar">
+      <header id="title">Technical Doc</header>
+      <a class="nav-link" href="#react">React</a>
+      <a class="nav-link" href="#redux">Redux</a>
+      <a class="nav-link" href="#javascript">Javascript</a>
+      <a class="nav-link" href="#jsx">Jsx</a>
+      <a class="nav-link" href="#es6">Es6</a>
+    </nav>
+  </head>
+  <body>
+    <!--  freeCodeCamp Test Suite -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <main id="main-doc">
+      <div id="main">
+        <section id="react" class="main-section">
+          <header class="main-title">React</header>
+          <p>
+            Praesent nulla justo, aliquam posuere est vel, porttitor efficitur
+            elit. Aliquam erat volutpat. Pellentesque fringilla sollicitudin
+            pretium. Aenean metus est, tincidunt eu scelerisque at, volutpat ac
+            odio. Fusce varius nibh at aliquam iaculis. Aenean convallis ligula
+            est, eget venenatis ipsum mollis sit amet. Aenean porta libero
+            mauris, at ornare arcu laoreet sit amet. Duis varius, dui sed congue
+            dignissim, est turpis suscipit ligula, dapibus luctus felis mi et
+            libero. Nulla metus nibh, scelerisque nec rutrum sit amet, congue at
+            urna. Fusce euismod quis magna id pretium. Duis tristique sem orci,
+            at semper neque dapibus id. Duis non erat elementum, laoreet purus
+            in, hendrerit quam.
+          </p>
+          <code>Lorem ipsum dolor sit amet.</code>
+          <p>
+            Aenean pulvinar nunc at metus placerat hendrerit. Nam ut quam at
+            turpis vehicula imperdiet. Maecenas mollis dolor in ante convallis,
+            in luctus mauris hendrerit. Maecenas varius nunc vitae purus
+            ultricies, sit amet congue mi eleifend. Integer cursus magna in
+            mollis suscipit.
+          </p>
+        </section>
+        <section id="redux" class="main-section">
+          <header class="main-title">Redux</header>
+          <p>
+            Praesent nulla justo, aliquam posuere est vel, porttitor efficitur
+            elit. Aliquam erat volutpat. Pellentesque fringilla sollicitudin
+            pretium. Aenean metus est, tincidunt eu scelerisque at, volutpat ac
+            odio. Fusce varius nibh at aliquam iaculis. Aenean convallis ligula
+            est, eget venenatis ipsum mollis sit amet. Aenean porta libero
+            mauris, at ornare arcu laoreet sit amet. Duis varius, dui sed congue
+            dignissim, est turpis suscipit ligula, dapibus luctus felis mi et
+            libero. Nulla metus nibh, scelerisque nec rutrum sit amet, congue at
+            urna. Fusce euismod quis magna id pretium. Duis tristique sem orci,
+            at semper neque dapibus id. Duis non erat elementum, laoreet purus
+            in, hendrerit quam.
+          </p>
+          <code>Lorem ipsum dolor sit amet.</code>
+          <p>
+            Aenean pulvinar nunc at metus placerat hendrerit. Nam ut quam at
+            turpis vehicula imperdiet. Maecenas mollis dolor in ante convallis,
+            in luctus mauris hendrerit. Maecenas varius nunc vitae purus
+            ultricies, sit amet congue mi eleifend. Integer cursus magna in
+            mollis suscipit.
+          </p>
+        </section>
+        <section id="javascript" class="main-section">
+          <header class="main-title">Javascript</header>
+          <p>
+            Praesent nulla justo, aliquam posuere est vel, porttitor efficitur
+            elit. Aliquam erat volutpat. Pellentesque fringilla sollicitudin
+            pretium. Aenean metus est, tincidunt eu scelerisque at, volutpat ac
+            odio. Fusce varius nibh at aliquam iaculis. Aenean convallis ligula
+            est, eget venenatis ipsum mollis sit amet. Aenean porta libero
+            mauris, at ornare arcu laoreet sit amet. Duis varius, dui sed congue
+            dignissim, est turpis suscipit ligula, dapibus luctus felis mi et
+            libero. Nulla metus nibh, scelerisque nec rutrum sit amet, congue at
+            urna. Fusce euismod quis magna id pretium. Duis tristique sem orci,
+            at semper neque dapibus id. Duis non erat elementum, laoreet purus
+            in, hendrerit quam.
+          </p>
+          <code>Lorem ipsum dolor sit amet.</code>
+          <p>
+            Aenean pulvinar nunc at metus placerat hendrerit. Nam ut quam at
+            turpis vehicula imperdiet. Maecenas mollis dolor in ante convallis,
+            in luctus mauris hendrerit. Maecenas varius nunc vitae purus
+            ultricies, sit amet congue mi eleifend. Integer cursus magna in
+            mollis suscipit.
+          </p>
+        </section>
+        <section id="jsx" class="main-section">
+          <header class="main-title">Jsx</header>
+          <p>
+            Praesent nulla justo, aliquam posuere est vel, porttitor efficitur
+            elit. Aliquam erat volutpat. Pellentesque fringilla sollicitudin
+            pretium. Aenean metus est, tincidunt eu scelerisque at, volutpat ac
+            odio. Fusce varius nibh at aliquam iaculis. Aenean convallis ligula
+            est, eget venenatis ipsum mollis sit amet. Aenean porta libero
+            mauris, at ornare arcu laoreet sit amet. Duis varius, dui sed congue
+            dignissim, est turpis suscipit ligula, dapibus luctus felis mi et
+            libero. Nulla metus nibh, scelerisque nec rutrum sit amet, congue at
+            urna. Fusce euismod quis magna id pretium. Duis tristique sem orci,
+            at semper neque dapibus id. Duis non erat elementum, laoreet purus
+            in, hendrerit quam.
+          </p>
+          <code>Lorem ipsum dolor sit amet.</code>
+          <p>
+            Aenean pulvinar nunc at metus placerat hendrerit. Nam ut quam at
+            turpis vehicula imperdiet. Maecenas mollis dolor in ante convallis,
+            in luctus mauris hendrerit. Maecenas varius nunc vitae purus
+            ultricies, sit amet congue mi eleifend. Integer cursus magna in
+            mollis suscipit.
+          </p>
+          <ol>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+          </ol>
+        </section>
+        <section id="es6" class="main-section">
+          <header class="main-title">Es6</header>
+          <p>
+            Praesent nulla justo, aliquam posuere est vel, porttitor efficitur
+            elit. Aliquam erat volutpat. Pellentesque fringilla sollicitudin
+            pretium. Aenean metus est, tincidunt eu scelerisque at, volutpat ac
+            odio. Fusce varius nibh at aliquam iaculis. Aenean convallis ligula
+            est, eget venenatis ipsum mollis sit amet. Aenean porta libero
+            mauris, at ornare arcu laoreet sit amet. Duis varius, dui sed congue
+            dignissim, est turpis suscipit ligula, dapibus luctus felis mi et
+            libero. Nulla metus nibh, scelerisque nec rutrum sit amet, congue at
+            urna. Fusce euismod quis magna id pretium. Duis tristique sem orci,
+            at semper neque dapibus id. Duis non erat elementum, laoreet purus
+            in, hendrerit quam.
+          </p>
+          <code>Lorem ipsum dolor sit amet.</code>
+          <p>
+            Aenean pulvinar nunc at metus placerat hendrerit. Nam ut quam at
+            turpis vehicula imperdiet. Maecenas mollis dolor in ante convallis,
+            in luctus mauris hendrerit. Maecenas varius nunc vitae purus
+            ultricies, sit amet congue mi eleifend. Integer cursus magna in
+            mollis suscipit.
+          </p>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>
