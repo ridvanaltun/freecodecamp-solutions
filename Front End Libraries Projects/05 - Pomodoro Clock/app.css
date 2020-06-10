@@ -1,0 +1,96 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  color: white;
+}
+
+#title {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+button {
+  margin: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+#controls {
+  display: flex;
+  margin: 1.5rem;
+}
+
+.sub-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: monospace;
+  margin: 10px;
+  padding: 10px;
+  border-style: inset;
+}
+
+.control-btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#timer {
+  display: flex;
+  flex: 0.5;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: burlywood;
+  border-radius: 10px;
+}
+
+#timer-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+#timer-label {
+  font-size: xx-large;
+  font-family: monospace;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+#time-left {
+  font-family: Share Tech Mono, monospace;
+  font-size: 50px;
+}
+
+#start_stop:hover,
+#reset:hover,
+#break-decrement:hover,
+#break-increment:hover,
+#session-decrement:hover,
+#session-increment:hover {
+  color: white;
+}

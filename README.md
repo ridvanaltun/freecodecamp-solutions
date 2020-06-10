@@ -16,7 +16,9 @@ Projects what i made during the course.
 - [Markdown Preview](https://codepen.io/ridvanaltun/full/qBbdGgZ)
 - [Drum Machine](https://codepen.io/ridvanaltun/full/mdVeJRr)
 - [JavaScript Calculator](https://codepen.io/ridvanaltun/full/MWKaeOY)
+- [Pomodoro Clock](https://codepen.io/ridvanaltun/full/VweedGL)
 
 ## My Certificates
 
-[Responsive Web Design](https://www.freecodecamp.org/certification/ridvanaltun/responsive-web-design)
+- [Responsive Web Design](https://www.freecodecamp.org/certification/ridvanaltun/responsive-web-design)
+- [Front End Libraries](https://www.freecodecamp.org/certification/ridvanaltun/front-end-libraries)
